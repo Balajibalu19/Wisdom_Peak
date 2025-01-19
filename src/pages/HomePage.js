@@ -52,7 +52,7 @@ const HomePage = () => {
         {/* Header Section */}
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-4xl font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400">
-            User Directory
+            Your Gateway to User Details
           </h1>
 
           <span
@@ -85,11 +85,12 @@ const HomePage = () => {
         )}
 
         {/* Pagination Controls */}
-        <div className="flex justify-center items-center mt-6 space-x-2">
+        <div className="flex justify-center items-center mt-8 space-x-2">
+          {/* Previous Button */}
           <button
-            className={`px-3 py-1 rounded-md ${
+            className={`px-4 py-2 rounded-full font-medium transition-colors duration-300 ${
               currentPage === 1
-                ? "bg-gray-300 text-gray-600 cursor-not-allowed"
+                ? "bg-gray-300 text-gray-500 cursor-not-allowed"
                 : "bg-blue-500 text-white hover:bg-blue-600"
             }`}
             onClick={() => goToPage(currentPage - 1)}
@@ -97,25 +98,31 @@ const HomePage = () => {
           >
             Previous
           </button>
-          {Array.from({ length: totalPages }, (_, index) => (
-            <button
-              key={index}
-              className={`px-3 py-1 rounded-md ${
-                currentPage === index + 1
-                  ? "bg-blue-600 text-white"
-                  : isDarkMode
-                  ? "bg-gray-700 text-gray-300 hover:bg-gray-600"
-                  : "bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white"
-              }`}
-              onClick={() => goToPage(index + 1)}
-            >
-              {index + 1}
-            </button>
-          ))}
+
+          {/* Page Numbers */}
+          <div className="flex space-x-1">
+            {Array.from({ length: totalPages }, (_, index) => (
+              <button
+                key={index}
+                className={`w-10 h-10 flex items-center justify-center rounded-full font-medium transition-all duration-300 ${
+                  currentPage === index + 1
+                    ? "bg-blue-600 text-white"
+                    : isDarkMode
+                    ? "bg-gray-700 text-gray-300 hover:bg-gray-600"
+                    : "bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white"
+                }`}
+                onClick={() => goToPage(index + 1)}
+              >
+                {index + 1}
+              </button>
+            ))}
+          </div>
+
+          {/* Next Button */}
           <button
-            className={`px-3 py-1 rounded-md ${
+            className={`px-4 py-2 rounded-full font-medium transition-colors duration-300 ${
               currentPage === totalPages
-                ? "bg-gray-300 text-gray-600 cursor-not-allowed"
+                ? "bg-gray-300 text-gray-500 cursor-not-allowed"
                 : "bg-blue-500 text-white hover:bg-blue-600"
             }`}
             onClick={() => goToPage(currentPage + 1)}

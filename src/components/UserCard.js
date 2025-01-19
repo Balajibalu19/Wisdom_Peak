@@ -29,10 +29,10 @@ const UserCard = ({ user, isDarkMode }) => (
     </p>
     <Link to={`/user/${user.id}`} className="mt-auto">
       <button
-        className={`w-full px-6 py-3 rounded-lg text-lg font-semibold transform hover:scale-105 transition-transform duration-300 ease-in-out shadow-md ${
+        className={`w-full px-6 py-3 rounded-lg text-base font-semibold transform hover:scale-105 transition-transform duration-300 ease-in-out shadow-md tracking-wide ${
           isDarkMode
-            ? "bg-gray-700 text-white hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 active:bg-gray-800"
-            : "bg-blue-600 text-white hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 active:bg-blue-800"
+            ? "bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 text-white hover:from-gray-700 hover:to-gray-500 focus:ring-4 focus:ring-gray-400 active:bg-gray-900"
+            : "bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 text-white hover:from-blue-500 hover:to-blue-300 focus:ring-4 focus:ring-blue-200 active:bg-blue-800"
         }`}
       >
         View Details
