@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# User Management System - HomePage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project implements a user management system with the following features:
 
-## Available Scripts
+User Listing: Displays a list of users with their details.
 
-In the project directory, you can run:
+Search Functionality: Allows users to search for specific users by name.
 
-### `npm start`
+Sorting Options: Sorts the user list in ascending or descending order.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Pagination: Breaks the user list into pages for better navigation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Dark/Light Mode: Switch between themes with a toggle button.
 
-### `npm test`
+# Features Breakdown
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 1. Search Bar
 
-### `npm run build`
+A search bar component enables users to filter the list by entering a name.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Case-insensitive search ensures flexibility for the user.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 2. Sorting
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Users can sort the list of names alphabetically in ascending or descending order.
 
-### `npm run eject`
+Sorting is applied dynamically as the order is changed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 3. Pagination
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Users are displayed in pages, with a customizable number of users per page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Buttons for navigating between pages include:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Previous: Disabled on the first page.
 
-## Learn More
+Next: Disabled on the last page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Page Numbers: Highlight the current page with a distinct style.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pagination buttons are visually appealing and responsive.
 
-### Code Splitting
+# 4. Dark/Light Mode Toggle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Users can switch between light and dark themes.
 
-### Analyzing the Bundle Size
+Toggle button changes dynamically to reflect the current theme (e.g., sun icon for light mode, moon icon for dark mode).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
