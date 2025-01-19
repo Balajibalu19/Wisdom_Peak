@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Wisdom_Peak/static/css/main.0d546180.css",
-    "main.js": "/Wisdom_Peak/static/js/main.6836a2fe.js",
+    "main.js": "/Wisdom_Peak/static/js/main.10f5e68a.js",
     "static/js/488.82720bca.chunk.js": "/Wisdom_Peak/static/js/488.82720bca.chunk.js",
     "index.html": "/Wisdom_Peak/index.html",
     "main.0d546180.css.map": "/Wisdom_Peak/static/css/main.0d546180.css.map",
-    "main.6836a2fe.js.map": "/Wisdom_Peak/static/js/main.6836a2fe.js.map",
+    "main.10f5e68a.js.map": "/Wisdom_Peak/static/js/main.10f5e68a.js.map",
     "488.82720bca.chunk.js.map": "/Wisdom_Peak/static/js/488.82720bca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d546180.css",
-    "static/js/main.6836a2fe.js"
+    "static/js/main.10f5e68a.js"
   ]
 }
