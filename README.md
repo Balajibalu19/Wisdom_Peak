@@ -47,3 +47,19 @@ Users can switch between light and dark themes.
 Toggle button changes dynamically to reflect the current theme (e.g., sun icon for light mode, moon icon for dark mode).
 
 
+
+# Folder Structure 
+
+     src/
+    |   |-- components/
+    |   |   |-- UserCard.js
+    |   |   |-- SearchBar.js
+    |   |   |-- Sorting.js
+    |   |-- context/
+    |   |   |-- UserContext.js
+    |   |-- pages/
+    |   |   |-- HomePage.js
+            |--UserDetailsPage.js
+    |-- public/
+    |-- package.json
+    |-- README.md
