@@ -63,3 +63,33 @@ Toggle button changes dynamically to reflect the current theme (e.g., sun icon f
     |-- public/
     |-- package.json
     |-- README.md
+
+
+# How to Run
+
+# Prerequisites
+
+     Node.js (>=16.x)
+     
+     npm or yarn
+
+# Installation
+
+# Clone the repository:
+
+     git clone <repository-url>
+     cd project-directory
+
+# Install dependencies:
+
+     npm install
+     # or
+     yarn install
+
+# Start the development server:
+
+     npm start
+     # or
+     yarn start
+
+The application will be available at http://localhost:3000.
