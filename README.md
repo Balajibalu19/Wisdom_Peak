@@ -92,4 +92,40 @@ Toggle button changes dynamically to reflect the current theme (e.g., sun icon f
      # or
      yarn start
 
-The application will be available at http://localhost:3000.
+The application will be available at http://localhost:3000. 
+
+# Components
+
+# UserCard.js
+
+Displays user information in a styled card format, adapting to light or dark themes.
+
+# SearchBar.js
+
+Provides an input field for filtering the user list based on the entered search term.
+
+# Sorting.js
+
+Allows sorting the user list by name in ascending or descending order.
+
+# Pagination
+
+Features:
+
+Displays previous, next, and page numbers dynamically.
+
+Highlights the active page.
+
+Disabled state for edge-case buttons (e.g., "Previous" on the first page).
+
+# Styling:
+
+Buttons with hover effects and rounded corners.
+
+Smooth transitions for hover and active states.
+
+# Theming
+
+Dark and light themes are implemented using a state toggle.
+
+Dynamically applies styles to match the selected theme.
