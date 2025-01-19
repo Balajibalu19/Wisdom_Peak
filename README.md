@@ -77,9 +77,8 @@ Toggle button changes dynamically to reflect the current theme (e.g., sun icon f
 
 # Clone the repository:
 
-     git clone <repository-url>
-     cd project-directory
-
+     git clone https://github.com/Balajibalu19/Wisdom_Peak.git
+     cd react-user-app
 # Install dependencies:
 
      npm install
