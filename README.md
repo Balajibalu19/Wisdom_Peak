@@ -134,3 +134,5 @@ Dynamically applies styles to match the selected theme.
 # OUTPUT IMAGES
 
 ![Image](https://github.com/user-attachments/assets/7d448a8b-a7eb-4d77-a38f-deb9a96d4be7)
+
+![Image](https://github.com/user-attachments/assets/2bc408ac-ea4c-4685-af59-2b6e036ffd7b)
