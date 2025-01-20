@@ -128,3 +128,9 @@ Smooth transitions for hover and active states.
 Dark and light themes are implemented using a state toggle.
 
 Dynamically applies styles to match the selected theme.
+
+
+
+# OUTPUT IMAGES
+
+![Image](https://github.com/user-attachments/assets/7d448a8b-a7eb-4d77-a38f-deb9a96d4be7)
